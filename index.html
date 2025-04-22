@@ -2,52 +2,10 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>e11k4t</title>
-
-  <!-- Bootstrap CSS CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
+  <title>Test Shadow</title>
   <style>
-    body {
-      background-color: #0f0f0f;
-      color: #00ff99;
-      font-family: 'Courier New', Courier, monospace;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
-    }
-
-    .retro-box {
-      border: 2px dashed #00ff99;
-      padding: 30px;
-      margin-top: 20px;
-      background-color: rgba(0, 0, 0, 0.5);
-    }
-
     .retro-link {
       text-decoration: none;
-      padding: 10px 30px;
-      display: inline-block;
-      transition: 0.2s;
-    }
-
-    .retro-heading {
-      font-size: 3em;
-      margin: 0;
-    }
-
-    .arrow {
-      color: #00ff99;
     }
 
     .hover-part {
@@ -62,43 +20,20 @@
       text-decoration: underline;
     }
 
-    /* Nepřebíjej barvu hover-part tímto */
-    a:not(.retro-link) {
-      color: #00ffff;
-      text-decoration: none;
-    }
-
-    a:not(.retro-link):hover {
-      text-decoration: underline;
+    .arrow {
+      color: #00ff99;
     }
   </style>
 </head>
-<body>
+<body style="background:black; text-align:center; padding-top:50px; font-family:'Courier New', monospace;">
 
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-8 col-md-10 col-lg-8 retro-box">
-        <a href="main.html" class="retro-link">
-          <h1 class="retro-heading">
-            <span class="arrow">&gt;&gt;&gt; </span>
-            <span class="hover-part">e11k4t</span>
-            <span class="arrow"> &lt;&lt;&lt;</span>
-          </h1>
-        </a>
-        <p class="lead">Ahoj! Jsem e11k4t – nadšenec do technologií, retro stylu a kreativity.  
-           Tohle je moje malá online vizitka v duchu 80. let.
-        </p>
-        <p>
-          Najdeš mě na:<br>
-          <a href="https://github.com/" target="_blank">GitHub</a> |
-          <a href="https://instagram.com/" target="_blank">Instagram</a>
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Bootstrap JS (volitelné) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <a href="#" class="retro-link">
+    <h1 style="font-size:3em;">
+      <span class="arrow">&gt;&gt;&gt; </span>
+      <span class="hover-part">e11k4t</span>
+      <span class="arrow"> &lt;&lt;&lt;</span>
+    </h1>
+  </a>
 
 </body>
 </html>
