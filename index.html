@@ -35,10 +35,6 @@
       background-color: rgba(0, 0, 0, 0.5);
     }
 
-    a:not(.retro-link) {
-      color: #00ffff;
-    }
-
     .retro-heading {
       font-size: 3em;
       color: #00ff99;
@@ -66,18 +62,24 @@
       transition: all 0.2s;
     }
 
-    .retro-link:hover {
+    /* .retro-link:hover {
       text-decoration: none;
-    }
+    } */
     
     .arrow {
       color: #00ff99;
       text-decoration: none;
     }
     
-    a:hover {
+    /* Nepřebíjej barvu hover-part tímto */
+    a:not(.retro-link) {
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    a:not(.retro-link):hover {
       text-decoration: underline;
-    } 
+    }
     
     /*
     a.btn {
